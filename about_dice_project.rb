@@ -10,7 +10,6 @@ class DiceSet
     for i in 1..num_dice
       @values << rand(1..6)
     end
-    puts '*** ' + @values.inspect
   end
 end
 
